@@ -114,14 +114,14 @@
 
 ## 7. Microservices: Lessons and Misuse
 
-### 📌 Common Trap: “Microservice = Modern”
+### ✅ Common Trap: “Microservice = Modern”
 - Teams split services without justification
 - Distributed systems cost more:
     - Debugging
     - Operations
     - Latency and failures
 
-### 📌 When Splitting Makes Sense
+### ✅ When Splitting Makes Sense
 ❌ Pure business segmentation  
 ✔ Operational characteristics such as:
 - High QPS or bandwidth
