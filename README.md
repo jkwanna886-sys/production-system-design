@@ -4,7 +4,7 @@ including both production-grade designs and focused study implementations.
 
 ---
 
-### 1. [Redesigned Loan Approval System](./loan-approval-redesign/)
+### 1. [Redesigned Loan Approval System](./loan-approval-redesign/README.md)
 
 **Background**
 - Accepts loan applications, performs review and risk detection, and synchronizes results to downstream systems.
