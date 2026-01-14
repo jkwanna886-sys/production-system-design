@@ -125,6 +125,3 @@ This strongly suggested:
 - Business goals should guide technical decisions.
 
 ---
-
-This incident influenced how similar static resource delivery problems are approached,
-especially when encryption or additional processing is involved.
