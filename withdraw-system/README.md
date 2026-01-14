@@ -154,7 +154,7 @@ After reserve:
 #### Ledger Service
 - Failure only: append reverse ledger entries
 
-### Reconciliation & Failure Recovery
+### ✅ Reconciliation & Failure Recovery
 - Internal Failures
   - Detect init records older than X minutes
   - Retry using the same business flow (idempotent by design)
@@ -170,7 +170,7 @@ success or failed
 
 ## Design Principles
 - Correctness over throughput
-- Simple state machine
+- Simple state machine ✅
 - Idempotency at every boundary
 - Synchronous calls for critical correctness
 - Asynchronous processing for scalability
