@@ -115,9 +115,6 @@ This strongly suggested:
 
 > The underlying issue was network inspection of readable data, and **encryption removed that cost**.
 
-By reframing the problem as one of **network content behavior**, rather than file compression,
-the team avoided unnecessary redesign (e.g., swapping compression libraries or formats) and
-adopted a solution aligned with operational simplicity and long-term maintainability.
 ---
 
 ### Key Takeaways
