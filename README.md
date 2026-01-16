@@ -28,10 +28,10 @@ including both production-grade designs and focused study implementations.
 ### 3. [Troubleshooting Incident: Slow Static Resource Download](./troubleshooting-breakthrough/README.md)
 
 **Summary**  
-During pre-production testing, static resources were downloading slowly.
+- During pre-production testing, static resources were downloading slowly.
 
 **Cause & Fix**  
-Internal network inspection caused the slowdown. Encrypting the resources bypassed inspection and restored normal performance.
+- Internal network inspection caused the slowdown. Encrypting the resources bypassed inspection and restored normal performance.
 
 **Outcome**
 - Issue resolved before production release
