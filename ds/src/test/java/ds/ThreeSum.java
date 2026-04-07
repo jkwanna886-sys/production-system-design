@@ -37,9 +37,11 @@ public class ThreeSum {
                 if(sum==0) {
                     result.add(List.of(arr[i], arr[left], arr[right]));
 
+                    // skip duplicates
                     while (left<right && arr[left]==arr[left+1]) left++;
                     while(left<right && arr[right]==arr[right-1]) right--;
 
+                    // normal moving forward
                     left++;
                     right--;
                 }else if(sum<0) left++;
