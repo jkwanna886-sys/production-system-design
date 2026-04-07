@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Problem: Longest Substring Without Repeating Characters
+ * LeetCode 3. Longest Substring Without Repeating Characters
  * @see https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
  */
 public class LongestSubstringWithoutRepeatingCharacters {
