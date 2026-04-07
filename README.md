@@ -4,6 +4,9 @@ including both production-grade designs and focused study implementations.
 
 ---
 
+### 0. [DS(./ds/README.md)
+
+
 ### 1. [Redesigned Loan Approval System](./loan-approval-redesign/README.md)
 
 **Background**
@@ -37,3 +40,4 @@ including both production-grade designs and focused study implementations.
 - Issue resolved before production release
 - Ensured smooth resource delivery
 - Learned to identify network-related performance issues early
+
