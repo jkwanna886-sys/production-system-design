@@ -24,6 +24,8 @@ public class GroupByDepartment {
         map.forEach((dept, emps) -> {
             System.out.println(dept + ":" + emps);
         });
+
+        ;
     }
 
     @Test
