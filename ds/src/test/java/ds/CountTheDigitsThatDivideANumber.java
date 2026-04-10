@@ -3,6 +3,9 @@ package ds;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
+/**
+ * https://leetcode.com/problems/count-the-digits-that-divide-a-number/
+ */
 public class CountTheDigitsThatDivideANumber {
     /**
      * Input: num = 121

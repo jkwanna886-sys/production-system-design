@@ -5,7 +5,13 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
-/*
+
+
+/**
+ * https://leetcode.com/problems/count-primes/description/
+ */
+public class CountPrime {
+    /*
 n=10
 
 2/3/5/7
@@ -17,7 +23,6 @@ n=10
  i=3(3*1 and 3*2 already handled before)
     3*3=9
  */
-public class PrimeCounter {
     @Test
     public void test() {
         int n = 10;
