@@ -20,7 +20,7 @@ public class SubarraySumEqualsK {
 
         Assert.assertEquals(frequency(new int[]{1,1,1}, 2), 2);
 
-        Assert.assertEquals(frequency(new int[]{1,2,3}, 3), 2);
+        Assert.assertEquals(frequency(new int[]{0, 0, 1}, 1), 3);
 
     }
 
@@ -39,14 +39,16 @@ public class SubarraySumEqualsK {
             preSum += e;
 
             int x = preSum - k;
-
-            if(frequent.containsKey(x))
-                c++;
+            /**
+             * NOTE: So when we find target = S - k, we're not just asking "did this prefix sum exist?"
+             * but rather "how many times did this prefix sum occur?"
+             * because each occurrence represents a different starting point for a subarray ending at j.
+             */
+            c += frequent.getOrDefault(x, 0);
 
             frequent.put(preSum, frequent.getOrDefault(preSum, 0) + 1);
         }
         return c;
     }
-
 
 }
