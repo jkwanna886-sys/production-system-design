@@ -30,6 +30,9 @@ public class SubarraySumEqualsK {
         Map<Integer,Integer> frequent = new HashMap<>();
         frequent.put(0, 1);
         /*
+        sum(i,j)=k=prefix[j]-prefix[i-1]
+        prefix[i-1]=prefix[j]-k
+        (only need one variable)
          :0->1
          1: preSum=1, preSum-k=1-2=-1, 1->1
          1: preSum=2, preSum-k=0: 2->1
