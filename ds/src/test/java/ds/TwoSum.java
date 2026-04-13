@@ -10,6 +10,10 @@ import java.util.Map;
  * https://leetcode.com/problems/two-sum/
  */
 public class TwoSum {
+    void d(){
+        System.out.println(i);
+    }
+    int i;
 
     @Test
     public void test() {
