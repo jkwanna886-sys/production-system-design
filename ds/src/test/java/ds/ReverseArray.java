@@ -15,20 +15,19 @@ public class ReverseArray {
 
 
 
-    static void reverse(char[] array) {
-        int left=0;
-        int right=array.length-1;
-        while(left<right) {
-            char c = array[left];
-            array[left]=array[right];
-            array[right]=c;
+    void reverse(char[] array) {
+        int left = 0;
+        int right = array.length - 1;
+
+        while (left<right) {
+            char t = array[left];
+            array[left] = array[right];
+            array[right] = t;
 
             left++;
             right--;
         }
-
     }
-
 
 
 
