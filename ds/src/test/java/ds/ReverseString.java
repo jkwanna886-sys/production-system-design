@@ -2,7 +2,11 @@ package ds;
 
 import org.junit.jupiter.api.Test;
 
-public class ReverseArray {
+/**
+ * 344. Reverse String
+ * https://leetcode.com/problems/reverse-string/
+ */
+public class ReverseString {
     @Test
     public void test() {
         char[] array = new char[]{'h', 'e', 'l', 'l', 'o'};

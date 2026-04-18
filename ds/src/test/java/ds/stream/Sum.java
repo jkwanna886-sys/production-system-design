@@ -1,4 +1,4 @@
-package ds;
+package ds.stream;
 
 import org.junit.jupiter.api.Test;
 
