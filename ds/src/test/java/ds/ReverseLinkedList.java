@@ -1,6 +1,7 @@
 package ds;
 
 import ds.dto.SingleNode;
+import ds.util.LinkListUtil;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -27,10 +28,10 @@ public class ReverseLinkedList {
 
     @Test
     public void test() {
-        traverse(head);
+        LinkListUtil.traverse(head);
         SingleNode reverse = reverse(head);
         System.out.println("-----");
-        traverse(reverse);
+        LinkListUtil.traverse(reverse);
     }
 
     SingleNode reverse(SingleNode head) {
@@ -44,14 +45,5 @@ public class ReverseLinkedList {
         }
 
         return pre;
-    }
-
-    void traverse(SingleNode head) {
-        SingleNode cur = head.next;
-        System.out.print(head.value + " ");
-        while (cur!=null) {
-            System.out.print(cur.value + " ");
-            cur = cur.next;
-        }
     }
 }
